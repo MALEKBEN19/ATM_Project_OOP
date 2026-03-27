@@ -1,0 +1,8 @@
+# Visual Studio Junk
+.vs/
+Debug/
+Release/
+*.user
+*.filters
+*.db
+*.opendb
