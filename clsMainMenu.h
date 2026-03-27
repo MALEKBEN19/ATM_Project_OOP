@@ -2,6 +2,9 @@
 #include "clsScreen.h"
 #include"clsQuickWithDrawScreen.h"
 #include"clsClient.h"
+#include"clsNormalWithDrawScreen.h"
+#include"clsDepositScreen.h"
+#include"clsBalanceScreen.h"
 class clsMainMenu :
     protected clsScreen
 {
@@ -20,13 +23,16 @@ private:
        clsQuickWithDrawScreen::ShowQuickWithDrawScreen();
    }
    static void ShowNormalWithDrawScreen() {
-       cout << "Normal WithDraw Will Be here!\n";
+       /*cout << "Normal WithDraw Will Be here!\n";*/
+       clsNormalWithDrawScreen::ShowNormalWithdrawScreen();
    }
    static void ShowDepositScreen() {
-       cout << "Deposit Will Be here!\n";
+       /*cout << "Deposit Will Be here!\n";*/
+       clsDepositScreen::ShowDepositScreen();
    }
    static void ShowBalanceScreen() {
-       cout << "Balance Will Be here!\n";
+      /* cout << "Balance Will Be here!\n";*/
+       clsBalanceScreen::ShowBalanceScreen();
    }
    static void ShowLoginScreen() {
       /* cout << "Login Will Be here!\n";*/
@@ -80,15 +86,15 @@ public:
 
     static void ShowMainMenuScreen() {
         system("cls");
-        DrawHeaderScreen("ATM Menu Screen");
+        DrawHeaderScreen(" Welcome To","ATM Menu Screen");
         cout << "\n\t\t\t\t\t============================================================\n";
         cout << "\t\t\t\t\t\t\t      Main Menu Screen\n";
         cout << "\t\t\t\t\t============================================================\n\n";
-        cout << "\t\t\t\t\t[1] Quick WithDraw." << endl;
-        cout << "\t\t\t\t\t[2] Normal WithDraw." << endl;
-        cout << "\t\t\t\t\t[3] Deposit." << endl;
-        cout << "\t\t\t\t\t[4] Balance." << endl;
-        cout << "\t\t\t\t\t[5] Logout." << endl;
+        cout << "\t\t\t\t\t  [1] Quick WithDraw." << endl;
+        cout << "\t\t\t\t\t  [2] Normal WithDraw." << endl;
+        cout << "\t\t\t\t\t  [3] Deposit." << endl;
+        cout << "\t\t\t\t\t  [4] Balance." << endl;
+        cout << "\t\t\t\t\t  [5] Logout." << endl;
         cout << "\n\t\t\t\t\t============================================================\n";
         _PerformMenuOption(eMenuOption(_ReadMenuOption()));
     }

@@ -199,6 +199,10 @@ public:
         return true;
     }
 
+    bool IsEmpty() {
+        return (_Mode == eMode::eEmptyMode);
+    }
+
 
 };
 

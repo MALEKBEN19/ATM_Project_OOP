@@ -1,5 +1,6 @@
 #pragma once
 #include"clsUtil.h"
+#include<cmath>
 using namespace std;
 
 class clsInputValidate

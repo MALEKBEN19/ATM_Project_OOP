@@ -1,13 +1,13 @@
-#include"clsMainMenu.h"
+#include"clsLoginScreen.h"
 #include <iostream>
 #include"clsInputValidate.h";
 
 using namespace std;
 int main()
 {
-
-	clsMainMenu::ShowMainMenuScreen();
-
+	while (true) {
+		clsLoginScreen::ShowLoginScreen();
+	}
 
 
 	system("cls");

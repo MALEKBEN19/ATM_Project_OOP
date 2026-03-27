@@ -36,6 +36,7 @@ private:
         if (toupper(MyAnswer) == 'Y') {
             if (Client.QuickWithDraw(eOption)) {
                 cout << "\nQuickWithDraw Done Successfully.\n";
+                cout << "Your Balance Is : " << CurrentClient.balance << endl;
             }
             else {
                 cout << "\nOperation Was Cancelled.\n";

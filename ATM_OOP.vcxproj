@@ -130,8 +130,12 @@
     <ClInclude Include="..\..\Projects_With_OOP\Project_Bank_With_OOP\Project_Bank_With_OOP\clsInputValidate.h" />
     <ClInclude Include="..\..\Projects_With_OOP\Project_Bank_With_OOP\Project_Bank_With_OOP\clsString.h" />
     <ClInclude Include="..\..\Projects_With_OOP\Project_Bank_With_OOP\Project_Bank_With_OOP\clsUtil.h" />
+    <ClInclude Include="clsBalanceScreen.h" />
     <ClInclude Include="clsClient.h" />
+    <ClInclude Include="clsDepositScreen.h" />
+    <ClInclude Include="clsLoginScreen.h" />
     <ClInclude Include="clsMainMenu.h" />
+    <ClInclude Include="clsNormalWithDrawScreen.h" />
     <ClInclude Include="clsPerson.h" />
     <ClInclude Include="clsQuickWithDrawScreen.h" />
     <ClInclude Include="clsScreen.h" />
