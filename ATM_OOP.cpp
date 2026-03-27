@@ -1,9 +1,17 @@
-
+#include"clsMainMenu.h"
 #include <iostream>
+#include"clsInputValidate.h";
 
+using namespace std;
 int main()
 {
-    std::cout << "Hello World!\n";
+
+	clsMainMenu::ShowMainMenuScreen();
+
+
+
+	system("cls");
+	return 0;
 }
 
 

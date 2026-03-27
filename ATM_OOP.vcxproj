@@ -131,7 +131,10 @@
     <ClInclude Include="..\..\Projects_With_OOP\Project_Bank_With_OOP\Project_Bank_With_OOP\clsString.h" />
     <ClInclude Include="..\..\Projects_With_OOP\Project_Bank_With_OOP\Project_Bank_With_OOP\clsUtil.h" />
     <ClInclude Include="clsClient.h" />
+    <ClInclude Include="clsMainMenu.h" />
     <ClInclude Include="clsPerson.h" />
+    <ClInclude Include="clsScreen.h" />
+    <ClInclude Include="Global.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
