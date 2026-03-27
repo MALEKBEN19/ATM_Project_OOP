@@ -13,7 +13,7 @@ public:
 			cout << "\t\t\t\t\t\t\t\t   " << SubTitle << endl;
 		}
 		cout << "\n\t\t\t\t----------------------------------------------------------------------------------\n";
-		cout << "\t\t\t\t Date : " << clsDate::GetSystemDateTimeString() << endl;
+		cout << "\t\t\t\t Date/Time : " << clsDate::GetSystemDateTimeString() << endl;
 		cout << "\t\t\t\t Client : " << CurrentClient.FullName()<<endl;
 
 	}

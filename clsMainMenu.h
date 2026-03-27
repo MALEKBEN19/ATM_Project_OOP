@@ -1,5 +1,7 @@
 #pragma once
 #include "clsScreen.h"
+#include"clsQuickWithDrawScreen.h"
+#include"clsClient.h"
 class clsMainMenu :
     protected clsScreen
 {
@@ -14,7 +16,8 @@ private:
 
     
    static void ShowQuickWithDrawScreen() {
-       cout << "Quick WithDraw Will Be here!\n";
+       /*cout << "Quick WithDraw Will Be here!\n";*/
+       clsQuickWithDrawScreen::ShowQuickWithDrawScreen();
    }
    static void ShowNormalWithDrawScreen() {
        cout << "Normal WithDraw Will Be here!\n";
@@ -26,7 +29,8 @@ private:
        cout << "Balance Will Be here!\n";
    }
    static void ShowLoginScreen() {
-       cout << "Login Will Be here!\n";
+      /* cout << "Login Will Be here!\n";*/
+       CurrentClient = clsClient::Find("", "");
    }
 
 

@@ -133,6 +133,7 @@
     <ClInclude Include="clsClient.h" />
     <ClInclude Include="clsMainMenu.h" />
     <ClInclude Include="clsPerson.h" />
+    <ClInclude Include="clsQuickWithDrawScreen.h" />
     <ClInclude Include="clsScreen.h" />
     <ClInclude Include="Global.h" />
   </ItemGroup>
