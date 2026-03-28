@@ -19,7 +19,7 @@ public:
             }
             cout << "\nEnter Account Number : ";
             cin >> AccountN;
-            cout << "Enter Pin Code : ";
+            cout << "\nEnter Pin Code : ";
             cin >> PinCode;
 
             CurrentClient = clsClient::Find(AccountN, PinCode);
